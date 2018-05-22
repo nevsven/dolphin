@@ -7,5 +7,6 @@ class Student {
     Integer age
 
     static constraints = {
+        name nullable: false,size: 3..40
     }
 }
